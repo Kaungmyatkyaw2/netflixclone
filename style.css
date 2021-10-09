@@ -1,0 +1,557 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: title;
+  src: local(BebasNeue-Regular), url("font/title/BebasNeue-Regular.ttf");
+}
+
+body {
+  background-color: black;
+}
+
+@media screen and min-width(600px) {
+  background-color: white;
+}
+
+/* Home */
+
+#home {
+  padding-bottom: 120px;
+  border-bottom: 3px solid rgb(175, 175, 175);
+  background: url("img/bg1.jpg");
+  background-repeat: no-repeat;
+  filter: opacity(3px);
+}
+
+#home h2,
+button {
+  margin-top: 60px;
+}
+
+#home h2 {
+  font-size: 35px;
+  color: red;
+  font-family: title;
+  float: left;
+  margin-left: 210px;
+}
+
+#home .btn {
+  padding: 9px 20px;
+  font-size: 17px;
+  color: black;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  margin-right: 220px;
+}
+
+#home h3 {
+  clear: both;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 60px;
+  font-family: sans-serif;
+}
+
+h3 b {
+  font-size: 35px;
+  padding-top: 2px;
+}
+
+h3 span {
+  color: white;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+#home h3 p {
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+#home .email {
+  margin-left: 200px;
+  margin-top: 1px;
+}
+
+#home .email input {
+  width: 450px;
+  font-size: 22px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+#home .email button {
+  font-size: 19px;
+  padding: 13px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+/* enjoy your tv */
+
+#e_tv {
+  margin-top: 70px;
+}
+
+.content {
+  margin-top: 70px;
+  float: left;
+  margin-left: 220px;
+  margin-bottom: 80px;
+}
+
+#e_tv h2 {
+  letter-spacing: 5px;
+  color: red;
+  font-size: 34px;
+  padding-bottom: 50px;
+  font-family: title;
+}
+
+#e_tv p {
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+#e_tv img {
+  float: right;
+  margin-right: 280px;
+  margin-top: 60px;
+  width: 320px;
+}
+
+/* download */
+
+#download {
+  margin-top: 30px;
+  clear: both;
+  border-top: 3px solid gray;
+}
+
+#download .content {
+  float: right;
+  margin-right: 130px;
+}
+
+#download p {
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgba(133, 130, 130, 0.5);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#download h2 {
+  letter-spacing: 5px;
+  color: rgb(179, 175, 175);
+  font-size: 34px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+#download img {
+  float: left;
+  margin-left: 230px;
+  margin-top: -270px;
+  width: 320px;
+}
+
+/* content only */
+
+#ct_only {
+  clear: both;
+  padding-top: 60px;
+  border-top: 3px solid gray;
+}
+
+#ct_only p {
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#ct_only h2 {
+  letter-spacing: 5px;
+  color: rgb(253, 43, 43);
+  font-size: 34px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.ct_only {
+  float: left;
+  margin-left: 130px;
+  padding-bottom: 70px;
+}
+
+/* kid */
+
+#kid {
+  clear: both;
+  border-top: 3px solid gray;
+  padding: 80px 0px;
+}
+
+#kid .content {
+  float: right;
+  margin-right: 130px;
+  margin-top: -300px;
+}
+
+#kid h2 {
+  letter-spacing: 5px;
+  color: rgb(255, 254, 254);
+  font-size: 34px;
+  padding-bottom: 50px;
+  font-family: title;
+}
+
+#kid p {
+  color: rgb(97, 94, 94);
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+#kid img {
+  margin-left: 130px;
+  width: 530px;
+  float: left;
+}
+
+/* que */
+
+#que {
+  border-top: 3px solid gray;
+  padding-top: 100px;
+  clear: both;
+  border-bottom: 3px solid gray;
+  padding-bottom: 50px;
+}
+
+#que .title {
+  margin-top: 80px;
+  margin-left: 35%;
+}
+
+#que h1 {
+  color: rgb(252, 7, 7);
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+#que .que {
+  width: 400px;
+  height: 45px;
+  background-color: rgba(58, 56, 56, 0.5);
+  margin-top: 10px;
+}
+
+#que .que p {
+  padding-top: 12px;
+  padding-left: 12px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#que .que p:after {
+  content: " +";
+  position: absolute;
+  left: 62%;
+  cursor: pointer;
+  font-size: 26px;
+  color: rgb(105, 105, 104);
+}
+
+#que .email {
+  margin-left: 200px;
+  margin-top: -20px;
+}
+
+#que .email input {
+  width: 450px;
+  font-size: 22px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+#que .email button {
+  font-size: 19px;
+  padding: 13px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+#que p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+  color: rgb(119, 119, 119, 0.8);
+}
+
+/* final */
+
+#final {
+  background-color: rgb(0, 0, 0);
+}
+
+#final .head {
+  padding-top: 30px;
+  margin-left: 220px;
+  padding-bottom: 50px;
+}
+
+#final p {
+  color: rgb(129, 127, 125);
+  font-size: 20px;
+  font-family: title;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+}
+
+#final div {
+  font-family: sans-serif;
+}
+
+#final .head .c_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: rgb(75, 74, 74);
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+
+#final .head .c_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: rgb(75, 74, 74);
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+
+#final .head .c_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: rgb(75, 74, 74);
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+
+#final .head .c_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: rgb(75, 74, 74);
+  grid-gap: 10px;
+  padding-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  /* Home */
+
+  #home .email input {
+    width: 250px;
+    margin-left: -90px;
+    margin-top: 30px;
+    font-size: 19px;
+  }
+
+  #home .btn {
+    margin-right: 60px;
+    font-size: 20px;
+    color: white;
+  }
+
+  #home h2 {
+    margin-left: 30px;
+  }
+
+  #home h3 {
+    font-size: 35px;
+  }
+
+  #home b {
+    font-size: 25px;
+  }
+
+  #home h3 p {
+    font-size: 12px;
+    padding-left: 2px;
+  }
+
+  #home .email button {
+    margin-left: -30px;
+  }
+
+  /* enjoy your TV */
+
+  #e_tv h2 {
+    font-size: 25px;
+    margin-left: -190px;
+  }
+
+  #e_tv {
+    margin-top: 5px;
+  }
+
+  #e_tv .content p {
+    font-size: 14px;
+    margin-left: -60px;
+  }
+
+  #e_tv .content {
+    margin-bottom: -120px;
+  }
+
+  #e_tv img {
+    float: left;
+    width: 150px;
+    margin-bottom: 50px;
+  }
+
+  /* download */
+
+  #download p {
+    font-size: 10px;
+  }
+
+  #download h2 {
+    font-size: 17px;
+    margin-top: 70px;
+  }
+
+  #download img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 150px;
+  }
+
+  #download .content {
+    float: right;
+    margin-top: -90px;
+    margin-bottom: -390px;
+  }
+
+  /* Questions  */
+
+  #que h1 {
+    font-size: 25px;
+  }
+
+  #que .email input {
+    width: 250px;
+    margin-left: -80px;
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
+  #que .email button {
+    display: block;
+    margin-left: -30px;
+  }
+
+  #que .title {
+    margin-top: 80px;
+    margin-left: 7%;
+  }
+
+  #que .que p:after {
+    left: 85%;
+  }
+
+  /* kid */
+
+  #kid {
+    margin-right: 10px;
+  }
+
+  #kid img {
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 230px;
+    float: left;
+  }
+
+  #kid .content {
+    float: right;
+    margin-right: 15px;
+  }
+
+  #kid h2 {
+    letter-spacing: 5px;
+    color: rgb(255, 254, 254);
+    font-size: 18px;
+
+    margin-top: 60px;
+  }
+
+  #kid p {
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+
+  /* final page */
+
+  #final .head .c_1 {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #final .head .c_2 {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #final .head .c_3 {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #final .head .c_4 {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #final div {
+    font-size: 12px;
+  }
+
+  #final {
+    margin-left: -150px;
+  }
+
+  /* content only */
+
+  .ct_only {
+    margin-left: 30px;
+  }
+
+  #ct_only h2 {
+    font-size: 24px;
+  }
+}
